@@ -7,9 +7,12 @@
     <title>Document</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="abdurahim.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 </head>
 
@@ -25,7 +28,7 @@
             <ul>
                 <li>Ежедневно <br> <span style="font-weight: bold;">с 9:00 до 21:30</span></li>
             </ul>
-            <button><i class='bx bxs-phone'></i> ПОЗЖЕ ДАМ</button>
+            <button onclick="click_phone()"><i class='bx bxs-phone'></i> ПОЗЖЕ ДАМ</button>
         </div>
         <div class="media_ul">
             <ul>
@@ -63,6 +66,8 @@
                         </div>
                         <div class="tooth_card">
                             <img class="two_teeth" src="./img/9beca8a5ba04975f832c740c8e4d7ae37bfae8c5.png" alt="">
+                            <img class="rotate_two_teeth" src="./img/9beca8a5ba04975f832c740c8e4d7ae37bfae8c5.png"
+                                alt="">
                             <p><span style="font-weight: bold;">Щадащая Имплантация</span> <br> — от лучших врачей</p>
                         </div>
                     </div>
@@ -98,23 +103,634 @@
                     </div>
                     <div class="doctors">
                         <div class="head_doctors">
-                            <h2>Приём ведут врачи с опытом  <br><span>— от 12 до 35 лет</span></h2>
+                            <h2>Приём ведут врачи с опытом <br><span>— от 12 до 35 лет</span></h2>
                             <img class="heart_img" src="./img/942189f459e01fca271b870997e6d713eb4a0495.png" alt="">
                             <img class="doctors_img" src="./img/e4ace6da57c1dbef9490987d24f57c050824587d.png" alt="">
                         </div>
                     </div>
                 </div>
-                    <button>Рассчитать стоимость лечения</button>
+                <button>Рассчитать стоимость лечения</button>
             </div>
         </div>
     </header>
+
+    <section style="background-color: #EAF1FF; margin-top: 20px;">
+        <div class="all_colleague">
+            <center>
+                <div class="colleague_title">Консилиум экспертов с 30-летней практикой</div>
+            </center>
+            <h1>Восстановим зубы <br> 1 раз — и на десятилетия вперёд</h1>
+            <div class="colleagues_cards">
+                <div class="colleagues_card first_card_team">
+                    <img class="teams" src="./img/3833326fc2d0b8f8c78dd1f93991b4af762088d0.png" alt="">
+                </div>
+                <div class="colleagues_card">
+                    <div class="colleague_times">
+                        <div class="center_circle_1"></div>
+                        <div class="center_circle_2"></div>
+                        <div class="colleague_time">
+                            <div class="orange_circle"></div>
+                            <h2>от <span>12</span> лет</h2>
+                            <p>опыта работы</p>
+                        </div>
+                        <div class="colleague_time">
+                            <div class="orange_circle"></div>
+                            <h2>от <span>300</span> часов</h2>
+                            <p>доп. обучения</p>
+                        </div>
+                        <div class="colleague_time">
+                            <div class="orange_circle"></div>
+                            <h2>от <span>5 000</span></h2>
+                            <p>установленных имплантов</p>
+                        </div>
+                    </div>
+                    <img class="second_card_team" src="./img/7d2a3cbd1ace9382a1580d37260bbe0b1ac97b56.png" alt="">
+                </div>
+            </div>
+            <div class="information_connect">
+                <div class="information_con_cards">
+                    <h2>КТ-снимок, консультация и план лечения — 0 ₽</h2>
+                    <div class="buttons_cards">
+                        <div class="media_buttons">
+                            <button>+7 (999) 999-99-99</button>
+                            <button>Записаться на бесплатную консультацию</button>
+                        </div>
+                        <p>Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                    </div>
+                    <div class="white_line"></div>
+                    <div class="info_phone">
+                        <a style="text-decoration: none;" href="tel:+7 (933) 399-00-89">
+                            <h3><i class='bx bxs-phone'></i> +7 (933) 399-00-89</h3>
+                        </a>
+                        <p>Работаем для вас eжедневно с 9:00 до 21:30</p>
+                    </div>
+                    <img class="mini_tour" src="./img/ef27469bb87ad99f6700c6ea3d2abc7afc19bfef.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="main_3">
+            <div class="main_3_cards">
+                <h1><span>Всегда ищем способы спасения зубов,</span><br> а не повод удалить их</h1>
+                <div class="process_theeth">
+                    <div class="process_thooth">
+                        <h2>Отговариваем пациентов от имплантации и All-on-4, если есть хоть один шанс <br>
+                            <span>на спасение зубов</span>
+                        </h2>
+                    </div>
+                    <div class="for_profiles_img">
+                        <div class="process_thooth_2">
+                            <div class="about_doctor">
+                                <div>
+                                    <div class="blue_circle"></div>
+                                </div>
+                                <p>Кандидат наук, Ведущий хирург-имплантолог, ортопед</p>
+                            </div>
+                            <div class="about_doctor">
+                                <div>
+                                    <div class="blue_circle"></div>
+                                </div>
+                                <p>Более 6 000 пациентов и 25 000 + установленных имплантов</p>
+                            </div>
+                            <h3>Роман Грозов</h3>
+                        </div>
+                        <img src="./img/31e64924cf18697e0341f0601646a066e503a09d.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="main_4_cards">
+                <h1><span>Сохраняем 8 из 10 зубов,</span> благодаря правильному
+                    и вовремя подобранному лечению</h1>
+                <div class="information_work_cards">
+                    <div class="information_work_card">
+                        <h3>Установим импланты и протез <span>в 1 день</span></h3>
+                        <p>В 95% случаев обходимся без костной пластики</p>
+                        <div class="circle_work"></div>
+                    </div>
+                    <div class="information_work_card">
+                        <h3>Проведём бережную имплантацию <span>без боли</span></h3>
+                        <p>Приживаемость имплантата 98% </p>
+                        <div class="circle_work"></div>
+                    </div>
+                    <div class="information_work_card">
+                        <h3>Закрепим протез сразу — удобно и <span>без переделок</span></h3>
+                        <p>Жуйте, кусайте и улыбайтесь уверенно — прослужит <span style="font-weight: bold;">25+
+                                лет</span></p>
+                        <div class="circle_work"></div>
+                    </div>
+                </div>
+                <img src="./img/9a11c1f7c2277217731c8396ed1a05be6b3a6fbb.png" alt="">
+            </div>
+            <div class="main_5_cards">
+                <div class="main_5_img">
+                    <img src="./img/102f6e1e15a844275e5f2fda9de172f243a0b825.png" alt="">
+                </div>
+                <div class="main_5_card">
+                    <div class="main_5_info">
+                        <h2>Не торопитесь удалять зубы</h2>
+                        <p>Получите бесплатное экспертное заключение
+                            и узнайте, можно ли спасти ваш зуб — <span>0 ₽
+                                у ведущих стоматологов России</span></p>
+                        <button>Получить бесплатную консультацию</button>
+                    </div>
+                    <div class="white_line"></div>
+                    <div class="for_phone_info">
+                        <a style="text-decoration: none;" href="tel:+7 (933) 399-00-89">
+                            <h3><i class="bx bxs-phone"></i> +7 (933) 399-00-89</h3>
+                        </a>
+                        <p>Eжедневно с 9:00 до 21:30</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: #EAF1FF; margin-top: 20px; padding: 20px;">
+        <div class="main_6_cards">
+            <h1>Сделайте все зубы на 4-х имплантах по методу All-on-4</h1>
+            <div class="for_implant_cards">
+                <div class="for_implant_card_1">
+                    <img src="./img/ad24b5267b6f748531efb3ea08728f5a5baaee65.png" alt="">
+                    <h3>Атрофия костной ткани требует от имплантолога высокого мастерства</h3>
+                </div>
+                <div class="for_implant_card_2">
+                    <div class="for_flex_i">
+                        <i class='bx bx-right-arrow-alt'></i>
+                        <h3>Не в каждой клинике врач поставит импланты надёжно при минимальном объёме кости</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="osmotr_theeth_cards">
+                <div class="osmotr_theeth_card_1">
+                    <div class="osmotr_theeth_card">
+                        <img src="./img/{22DDE7D8-2438-4C46-B515-4D7713EA9533}.png" alt="">
+                        <h3>Имеем официальную лицензию</h3>
+                        <p>Ежедневно проводим сложные челюстно-лицевые операции</p>
+                    </div>
+                    <div class="osmotr_theeth_card osmotr_theeth_card_copy">
+                        <img src="./img/{22DDE7D8-2438-4C46-B515-4D7713EA9533}.png" alt="">
+                        <h3>Проводим лечение в операционном блоке</h3>
+                        <p>Оборудованное стерильное помещение, а не просто стом. кабинет</p>
+                    </div>
+                    <div class="osmotr_theeth_card">
+                        <img src="./img/{22DDE7D8-2438-4C46-B515-4D7713EA9533}.png" alt="">
+                        <h3>Лечим без боли (можно во сне)</h3>
+                        <p>Подберём индивидуально безопасную анестезию по параметрам организма</p>
+                    </div>
+                </div>
+                <div class="osmotr_theeth_images">
+                    <img src="./img/d6704a6f73a2e7f3f35d05cce4876f8458f3364f.png" alt="">
+                    <img src="./img/9f760af16ba7878800c6727485e4c37d152ef03c.png" alt="">
+                    <img src="./img/1273b89960d4a6f672e5693ab074f9680e8bee38.png" alt="">
+                    <img src="./img/767f4410330b7acdf61220edc80777de42d2fbf2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="mains">
+        <div class="prize-box">
+            <div class="inside-box">
+                <div class="inside-big">
+                    <h1>Приходите на бесплатную
+                        консультацию за <span style="color: #FF8A30;">0 ₽</span></h1>
+                    <p>Получите бесплатное экспертное заключение
+                        и узнайте, можно ли спасти ваш зуб — <span>
+                            0 ₽
+                            у ведущих стоматологов России</p>
+                    </span>
+                    <div class="btn-inside">
+                        <button class="btn-inside-1">+7 (999) 999-99-99</button>
+                        <button class="btn-inside-2">Записаться на бесплатную консультацию</button>
+                        <span>Нажимая на кнопку, вы соглашаетесь с<br>политикой конфиденциальности</span>
+                    </div>
+                    <div class="icon-inside">
+                        <div class="tel-icon">
+                            <i class='bx bxs-phone'></i>
+                            <p>+7 (933) 399-00-89</p>
+                        </div>
+                        <p>Работаем для вас жедневно с 9:00 до 21:30</p>
+                    </div>
+                </div>
+                <div class="box-img">
+                    <img src="./imag/d1b5ba3aed6260e0405b2ae5c7fca3e04a35afb3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main-nurse">
+            <img class="mishat-img" src="./imag/6b3713f5c735ad69ac2abd178183af442d8ad4b1.png" alt="">
+            <div class="handle-nurse">
+                <div class="min-main">
+                    <div class="head-main">
+                        <h1>Наши врачи ежедневно работают
+                            с нестандартными случаями</h1>
+                        <img src="./imag/942189f459e01fca271b870997e6d713eb4a0495.png" alt="">
+                    </div>
+                </div>
+                <div class="styee">
+                    <div class="cards-nurse">
+                        <div class="nurse-card-img">
+                            <img src="./imag/31e64924cf18697e0341f0601646a066e503a09d.png" alt="">
+                        </div>
+                        <div class="nurse-card-inside-box">
+                            <div class="inside-bosx-h1">
+                                <h1>Роман Грозов</h1>
+                                <p>Кандидат наук, Ведущий хирург-имплантолог, ортопед</p>
+                            </div>
+                            <p class="kandinant">Удаление зубов любой сложности, пластическая пародонтология,
+                                мягкотканная
+                                пластика по Зуккели,
+                                костная пластика по Кюри,
+                                все виды съемного протезирования и несъемного протезирования (виниры, коронки на своих
+                                зубах
+                                и
+                                имплантатах, по протоколу all on 4-6,
+                                микропротезирование жевательной группы зубов), лечение внутренних расстройств ВНЧС </p>
+                            <div class="inside-btn">
+                                <div class="card-inside-btn">
+                                    <div class="card-inside-btn-1">
+                                        <p>Опыт работы:</p>
+                                        <h4>19 лет</h4>
+                                    </div>
+                                    <div class="card-inside-btn-1">
+                                        <p>Вылечил:</p>
+                                        <h4>6 000+</h4>
+                                        <p class="patsin">пациентов</p>
+                                    </div>
+                                    <div class="card-inside-btn-1">
+                                        <p>Установил:</p>
+                                        <h4>25 000+</h4>
+                                        <p class="patsin">имплантов</p>
+                                    </div>
+                                    <div class="card-inside-btn-1" id="center-item">
+                                        <p class="under-center">Сертификаты
+                                            доктора</p>
+                                    </div>
+                                </div>
+                                <div class="card-inside-but">
+                                    <button>Записаться на консультацию</button>
+                                    <p>Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inside-btn" id="inside-btn-disable">
+                        <div class="card-inside-btn">
+                            <div class="card-inside-btn-1">
+                                <p>Опыт работы:</p>
+                                <h4>19 лет</h4>
+                            </div>
+                            <div class="card-inside-btn-1">
+                                <p>Вылечил:</p>
+                                <h4>6 000+</h4>
+                                <p class="patsin">пациентов</p>
+                            </div>
+                            <div class="card-inside-btn-1">
+                                <p>Установил:</p>
+                                <h4>25 000+</h4>
+                                <p class="patsin">имплантов</p>
+                            </div>
+                            <div class="card-inside-btn-1" id="center-item">
+                                <p class="under-center">Сертификаты
+                                    доктора</p>
+                            </div>
+                        </div>
+                        <div class="card-inside-but">
+                            <button>Записаться на консультацию</button>
+                            <p>Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="styee">
+                    <div class="cards-nurse">
+                        <div class="nurse-card-img">
+                            <img src="./imag/958d59fd060be1aac3774aae2b95e6a06861f1a5.png" alt="">
+                        </div>
+                        <div class="nurse-card-inside-box">
+                            <div class="inside-bosx-h1">
+                                <h1>Кирилл Савостян</h1>
+                                <p>Основатель клиники. Врач-стоматолог, ортопед</p>
+                            </div>
+                            <p class="kandinant">Очень высокий уровень профессионализма, в своей медицинской практике
+                                успешно справляется с самыми сложными случаями.
+                                Специализируется на съемном и несъемном протезировании. </p>
+                            <div class="inside-btn">
+                                <div class="card-inside-btn">
+                                    <div class="card-inside-btn-1">
+                                        <p>Опыт работы:</p>
+                                        <h4>15 лет</h4>
+                                    </div>
+                                    <div class="card-inside-btn-1">
+                                        <p>Вылечил:</p>
+                                        <h4>2 500+</h4>
+                                        <p class="patsin">пациентов</p>
+                                    </div>
+                                    <div class="card-inside-btn-1">
+                                        <p>Установил:</p>
+                                        <h4>6 000+</h4>
+                                        <p class="patsin">имплантов</p>
+                                    </div>
+                                    <div class="card-inside-btn-1" id="center-item">
+                                        <p class="under-center">Сертификаты
+                                            доктора</p>
+                                    </div>
+                                </div>
+                                <div class="card-inside-but">
+                                    <button>Записаться на консультацию</button>
+                                    <p>Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inside-btn" id="inside-btn-disable">
+                        <div class="card-inside-btn">
+                            <div class="card-inside-btn-1">
+                                <p>Опыт работы:</p>
+                                <h4>15 лет</h4>
+                            </div>
+                            <div class="card-inside-btn-1">
+                                <p>Вылечил:</p>
+                                <h4>2 500+</h4>
+                                <p class="patsin">пациентов</p>
+                            </div>
+                            <div class="card-inside-btn-1">
+                                <p>Установил:</p>
+                                <h4>6 000+</h4>
+                                <p class="patsin">имплантов</p>
+                            </div>
+                            <div class="card-inside-btn-1" id="center-item">
+                                <p class="under-center">Сертификаты
+                                    доктора</p>
+                            </div>
+                        </div>
+                        <div class="card-inside-but">
+                            <button>Записаться на консультацию</button>
+                            <p>Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="styee">
+                    <div class="cards-nurse">
+                        <div class="nurse-card-img">
+                            <img src="./imag/d0b3d41746c02a65caeaad4651d25dfe3fc0feb5.png" alt="">
+                        </div>
+                        <div class="nurse-card-inside-box">
+                            <div class="inside-bosx-h1">
+                                <h1>Кристина Савостян</h1>
+                                <p>Основатель клиники. Врач-стоматолог, ортопед, гнатолог</p>
+                            </div>
+                            <p class="kandinant">Очень высокий уровень профессионализма, в своей медицинской практике
+                                успешно справляется с самыми сложными случаями.
+                                Специализируется на съемном и несъемном протезировании. </p>
+                            <div class="inside-btn">
+                                <div class="card-inside-btn">
+                                    <div class="card-inside-btn-1">
+                                        <p>Опыт работы:</p>
+                                        <h4>15 лет</h4>
+                                    </div>
+                                    <div class="card-inside-btn-1">
+                                        <p>Вылечил:</p>
+                                        <h4>1 500+</h4>
+                                        <p class="patsin">пациентов</p>
+                                    </div>
+                                    <div class="card-inside-btn-1">
+                                        <p>Установил:</p>
+                                        <h4>10 000+</h4>
+                                        <p class="patsin">имплантов</p>
+                                    </div>
+                                    <div class="card-inside-btn-1" id="center-item">
+                                        <p class="under-center">Сертификаты
+                                            доктора</p>
+                                    </div>
+                                </div>
+                                <div class="card-inside-but">
+                                    <button>Записаться на консультацию</button>
+                                    <p>Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inside-btn" id="inside-btn-disable">
+                        <div class="card-inside-btn">
+                            <div class="card-inside-btn-1">
+                                <p>Опыт работы:</p>
+                                <h4>15 лет</h4>
+                            </div>
+                            <div class="card-inside-btn-1">
+                                <p>Вылечил:</p>
+                                <h4>1 500+</h4>
+                                <p class="patsin">пациентов</p>
+                            </div>
+                            <div class="card-inside-btn-1">
+                                <p>Установил:</p>
+                                <h4>10 000+</h4>
+                                <p class="patsin">имплантов</p>
+                            </div>
+                            <div class="card-inside-btn-1" id="center-item">
+                                <p class="under-center">Сертификаты
+                                    доктора</p>
+                            </div>
+                        </div>
+                        <div class="card-inside-but">
+                            <button>Записаться на консультацию</button>
+                            <p>Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="make-order-card">
+            <div class="order-head">
+                <div class="head-one">
+                    <img src="./imag/ade79712e49a7ed9c2d2245f1f8fb218b4f6cc77.png" alt="">
+                    <p>Участники всемирной
+                        ассоциации имплантологов</p>
+                </div>
+                <div class="head-one">
+                    <img src="./imag/_1_3-min.svg fill.png" alt="">
+                    <p>Отмечены наградой:
+                        Лучшие стоматологии РФ</p>
+                </div>
+            </div>
+            <p class="main-cancel">Протезирование зубов All-on-4 имеет огромное количество преимуществ как перед
+                классическими съемными
+                протезами, так и перед протезированием традиционными протезами</p>
+            <div class="order-inside-card">
+                <div class="inside-img-card">
+                    <img src="./imag/cf493151af12bd5e2d7e53432f6c7c23763bc49f.png" alt="">
+                </div>
+                <div class="inside-order-navigate">
+                    <div class="order-minimini">
+                        <div class="order-number-inside">
+                            <div class="line-inside"></div>
+                            <p>1</p>
+                        </div>
+                        <div class="order-text-inside">
+                            <h3>Полное отсутствие зубов</h3>
+                            <p>Идеальное решение для беззубой челюсти</p>
+                        </div>
+                    </div>
+                    <div class="order-minimini">
+                        <div class="order-number-inside">
+                            <p>2</p>
+                        </div>
+                        <div class="order-text-inside">
+                            <h3>Результат за несколько дней</h3>
+                            <p>Установка протеза за два дня</p>
+                        </div>
+                    </div>
+                    <div class="order-minimini">
+                        <div class="order-number-inside">
+                            <p>3</p>
+                        </div>
+                        <div class="order-text-inside">
+                            <h3>Без костной пластики</h3>
+                            <p>Используем имеющийся объем кости</p>
+                        </div>
+                    </div>
+                    <div class="order-minimini">
+                        <div class="order-number-inside">
+                            <p>4</p>
+                        </div>
+                        <div class="order-text-inside">
+                            <h3>Прочная немедленная фиксация</h3>
+                            <p>Протез стабилен сразу после операции</p>
+                        </div>
+                    </div>
+                    <div class="order-minimini">
+                        <div class="order-number-inside">
+                            <p>5</p>
+                        </div>
+                        <div class="order-text-inside">
+                            <h3>Естественность и омоложение</h3>
+                            <p>Восстанавливает контур и молодость лица</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-swiper">
+            <h1 class="card-swiper-h1">За 5 секунд получите расчёт стоимости ответив на несколько вопросов</h1>
+            <div class="swiper-js">
+                <div class="line-swiper"></div>
+                <div class="swiper-div1">
+                    <div class="div1-div1">
+                        <h1>Чем мы можем вам помочь?</h1>
+                        <div class="select-div">
+                            <div class="radio-div">
+                                <input type="radio" name="" id="">
+                                <p>Болит зуб / Болит десна</p>
+                            </div>
+                            <div class="radio-div">
+                                <input type="radio" name="" id="">
+                                <p>Кариес / Выпала пломба</p>
+                            </div>
+                            <div class="radio-div">
+                                <input type="radio" name="" id="">
+                                <p>Нет зуба / Зуб разрушился</p>
+                            </div>
+                            <div class="radio-div">
+                                <input type="radio" name="" id="">
+                                <p>Зубов мало / Нечем жевать</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div2-div2">
+                        <p>Step:1/3</p>
+                        <div class="btn-div3">
+                            <button class="btnn-2">
+                            </button>
+                            <button class="btnn-1">Далее ></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-div3">
+                    <img src="./imag/31e64924cf18697e0341f0601646a066e503a09d.png" alt="">
+                    <div class="message-div">
+                        <h3>Кандидат наук, Ведущий хирург-имплантолог</h3>
+                        <p>Роман Грозов </p><br>
+                        <p>Опыт 19 лет</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section style="background-color: #EAF1FF; margin-top: 20px; padding: 20px;">
+        <div class="main_6">
+            <div class="aval_circle">
+                <h2>Всегда рады вам</h2>
+                <div class="square"></div>
+            </div>
+            <h1>Приглашаем в клинику Флоренция</h1>
+            <p>за мгновенным результатом улыбки</p>
+            <div class="main_map_cards">
+                <div class="map_cards">
+                    <div class="media_map_card">
+                        <div class="media_map_width">
+                            <div class="map_card map_card_1">
+                                <img src="./img/photo.svg.png" alt="">
+                                <div>
+                                    <h2>Деловой центр</h2>
+                                    <p>ул. Мантулинская, д. 9, к. 1</p>
+                                </div>
+                            </div>
+                            <div class="map_card map_card_1">
+                                <img src="./img/photo.svg.png" alt="">
+                                <div>
+                                    <h2>Белорусская</h2>
+                                    <p>пр-кт Ленинградский, д. 5, стр. 2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media_map_width">
+                            <div class="map_card map_card_2">
+                                <img src="./img/photo.svg.png" alt="">
+                                <div>
+                                    <h2>Таганская</h2>
+                                    <p>пер. Известковый, д. 3</p>
+                                </div>
+                            </div>
+                            <div class="map_card map_card_2">
+                                <img src="./img/photo.svg.png" alt="">
+                                <div>
+                                    <h2>Парк культуры</h2>
+                                    <p>ул. Льва Толстого, д. 5/1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="map_card map_card_3">
+                            <i class="bx bxs-phone"></i>
+                            <div>
+                                <h2>+7 (495) 135-00-73</h2>
+                            </div>
+                        </div>
+                        <div class="map_card map_card_3">
+                            <div>
+                                <h2>Работаем ежедневно:</h2>
+                                <p>с 9:00 до 21:30</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
     <script>
-        function open_menu() {
-
+        function click_phone() {
+            window.location.href = "tel:+79333990089";
         }
     </script>
 </body>

@@ -5,7 +5,8 @@
 }
 
 .prize-box {
-    width: 95%;
+    width: 100%;
+    max-width: 1800px;
     min-height: 300px;
     background: #4060AA;
     margin: auto;
@@ -13,7 +14,12 @@
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    padding: 10px;
+    padding: 20px 40px;
+    margin-top: 30px;
+}
+
+.mains{
+    padding: 20px;
 }
 
 .inside-big {
@@ -69,6 +75,7 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
+    gap: 20px;
 }
 
 .btn-inside-1 {
@@ -115,16 +122,13 @@
 }
 
 .icon-inside p {
-    /* width: 30%; */
     font-weight: 400;
     font-size: 18px;
     height: 0;
 }
 
 .tel-icon {
-    width: 200px;
-    /* width: 50%; */
-    /* background: #000; */
+    width: 270px;
     color: white;
     display: flex;
     align-items: center;
@@ -187,7 +191,11 @@
     }
 
     .icon-inside p {
-        font-size: 14px;
+        font-size: 15px;
+    }
+
+    .tel-icon p{
+        width: 250px ;
     }
 }
 

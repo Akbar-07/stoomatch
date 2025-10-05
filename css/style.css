@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
 }
 
-.navbar{
+.navbar {
     max-width: 1200px;
     width: 100%;
     margin: auto;
@@ -15,17 +15,17 @@
     padding: 20px;
 }
 
-.navbar ul li{
-    list-style: none; 
+.navbar ul li {
+    list-style: none;
 }
 
-.navbar button i{
+.navbar button i {
     color: #206CDA;
     font-size: 22px;
     margin-right: 30px;
 }
 
-.navbar button{
+.navbar button {
     width: 100%;
     max-width: 286px;
     height: 62px;
@@ -38,34 +38,34 @@
     cursor: pointer;
 }
 
-.navbar .bx-menu{
+.navbar .bx-menu {
     font-size: 25px;
     display: none;
     cursor: pointer;
 }
 
-.media_ul{
+.media_ul {
     padding: 20px;
     padding-top: 0;
 }
 
-.media_ul ul{
+.media_ul ul {
     list-style: none;
     display: flex;
     align-items: end;
     margin-bottom: 5px;
 }
 
-.media_ul svg{
+.media_ul svg {
     width: 20px;
     margin-right: 5px;
 }
 
-.media_ul{
+.media_ul {
     display: none;
 }
 
-.information_cards{
+.information_cards {
     max-width: 1200px;
     width: 100%;
     padding: 20px;
@@ -77,11 +77,11 @@
     align-items: center;
 }
 
-.information_card{
+.information_card {
     width: 50%;
 }
 
-.information_card h1{
+.information_card h1 {
     max-width: 500px;
     width: 100%;
     font-size: 50px;
@@ -89,17 +89,17 @@
     line-height: 65px;
 }
 
-.information_card h1 span{
+.information_card h1 span {
     color: #206CDA;
 }
 
-.tooth_cards{
+.tooth_cards {
     display: flex;
     position: relative;
     margin-top: 20px;
 }
 
-.tooth_card_1 .tooth_card{
+.tooth_card_1 .tooth_card {
     width: 385px;
     border-radius: 20px;
     height: 105px;
@@ -109,32 +109,40 @@
     align-items: center;
 }
 
-.tooth_card_1{
+.tooth_card_1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.tooth_card_1 .tooth_card img{
+.tooth_card_1 .tooth_card img {
     width: 63px;
     height: 87px;
 }
 
-.tooth_card_1 .tooth_card p{
-    margin-left: 5px;
+.tooth_card_1 .tooth_card p {
+    margin-left: 20px;
 }
 
-.two_teeth{
+.two_teeth {
     width: 31px !important;
     height: 70px !important;
 }
 
-.tooth_card_2 .tooth_card img{
+.rotate_two_teeth {
+    width: 31px !important;
+    height: 70px !important;
+    transform: rotate(20deg);
+    margin-top: 25px;
+    margin-left: -5px;
+}
+
+.tooth_card_2 .tooth_card img {
     width: 142px;
     height: 95px;
 }
 
-.tooth_card_2 .tooth_card{
+.tooth_card_2 .tooth_card {
     background-color: #F3F3F3;
     border-radius: 20px;
     margin-left: 20px;
@@ -145,16 +153,16 @@
     justify-content: center;
 }
 
-.tooth_card_2 .tooth_card p{
+.tooth_card_2 .tooth_card p {
     margin: auto;
 }
 
-.for_center_circle img{
+.for_center_circle img {
     width: 47px;
     height: 47px;
 }
 
-.for_center_circle{
+.for_center_circle {
     width: 67px;
     height: 67px;
     position: absolute;
@@ -169,7 +177,7 @@
     display: flex;
 }
 
-.information_card_2{
+.information_card_2 {
     max-width: 670px;
     width: 100%;
     background-color: #EAF1FF;
@@ -177,7 +185,7 @@
     padding: 20px;
 }
 
-.count_card{
+.count_card {
     width: 198px;
     height: 214px;
     background: url('../img/cc8b69753fd0f39e255caefb8acf5bc58e89c127.png');
@@ -190,10 +198,10 @@
     color: white;
 }
 
-.for_discount{
+.for_discount {
     width: 47px;
     height: 47px;
-    border-radius: 15px;  
+    border-radius: 15px;
     background-color: #607CBC;
     position: absolute;
     top: 0;
@@ -206,37 +214,35 @@
     font-size: 14px;
 }
 
-.count_card img{
+.count_card img {
     width: 85px;
-    height: 61px;
     display: flex;
     margin: auto;
 }
 
-.count_card h2{
+.count_card h2 {
     font-size: 18px;
     color: #FF8B30;
     margin-top: 20px;
 }
 
-.count_card h4{
+.count_card h4 {
     font-size: 18px;
     color: #7F98CF;
     text-align: end;
     text-decoration: line-through;
 }
 
-.count_card_img{
+.count_card_img {
     width: 115px !important;
-    height: 115px !important;
     transform: rotate(-14deg);
 }
 
-.count_card h3{
+.count_card h3 {
     font-size: 17px;
 }
 
-.information_card_2 button{
+.information_card_2 button {
     background-color: #FF8A30;
     color: white;
     border: none;
@@ -247,12 +253,12 @@
     cursor: pointer;
 }
 
-.count_information{
+.count_information {
     display: flex;
     gap: 20px;
 }
 
-.doctors{
+.doctors {
     width: 100%;
     background-color: white;
     margin-bottom: 20px;
@@ -260,96 +266,1397 @@
     position: relative;
 }
 
-.head_doctors span{
+.head_doctors span {
     color: #206CDA;
 }
 
-.head_doctors h2{
+.head_doctors h2 {
     font-size: 18px;
     width: 240px;
     padding: 20px;
     padding-left: 30px;
 }
 
-.heart_img{
+.heart_img {
     width: 100px;
     position: absolute;
     top: 20px;
     right: 30px;
 }
 
-.doctors_img{
+.doctors_img {
     position: relative;
     bottom: 0;
     left: 0;
     width: 420px;
 }
 
+.all_colleague {
+    padding: 20px;
+}
+
+.colleague_title {
+    max-width: 457px;
+    min-height: 39px;
+    border-radius: 40px;
+    color: white;
+    background-color: #607CBC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.all_colleague h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 990px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px !important;
+    vertical-align: middle;
+}
+
+.colleagues_cards {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px !important;
+}
+
+.colleagues_cards {
+    display: flex;
+    gap: 20px;
+}
+
+.colleagues_card {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+}
+
+.teams {
+    height: 100%;
+    border-radius: 30px;
+}
+
+.first_card_team {
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.colleague_time {
+    width: 100%;
+    border-radius: 30px;
+    height: 138px;
+    border: 1px solid #607CBC;
+}
+
+.orange_circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #FF8A30;
+    display: flex;
+    margin: auto;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.colleague_time h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #383838;
+    margin-left: 15px;
+}
+
+.colleague_time p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #383838;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.colleague_time h2 span {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.colleague_times {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    max-width: 290px;
+    width: 100%;
+}
+
+.center_circle_1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #607CBC;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+}
+
+.center_circle_2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #607CBC;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: 275px;
+    left: 0;
+    right: 0;
+}
+
+.second_card_team {
+    width: 100%;
+    height: 440px;
+    border-radius: 30px;
+}
+
+.information_connect {
+    max-width: 1200px;
+    width: 100%;
+    background-color: #607CBC;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.information_connect h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    padding: 40px;
+    padding-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.buttons_cards button:nth-child(1) {
+    max-width: 310px;
+    width: 100%;
+    height: 72px;
+    border: 1px solid #FF8A30;
+    color: white;
+    background-color: transparent;
+    border-radius: 40px;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.buttons_cards button:nth-child(2) {
+    max-width: 310px;
+    width: 100%;
+    height: 72px;
+    border: 1px solid #FF8A30;
+    color: white;
+    background-color: #FF8A30;
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 0 15px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.buttons_cards {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    align-items: center;
+    padding: 0 40px;
+    padding-bottom: 40px;
+}
+
+.buttons_cards p {
+    color: white;
+    position: relative;
+    z-index: 2;
+    max-width: 300px;
+    width: 100%;
+}
+
+.media_buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.white_line {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.info_phone i {
+    color: #FF8B30;
+}
+
+.info_phone {
+    padding: 20px 40px;
+}
+
+.info_phone h3 {
+    color: white;
+    cursor: pointer;
+    width: 200px;
+}
+
+.info_phone p {
+    color: white;
+    font-size: 18px;
+}
+
+.info_phone {
+    display: flex;
+    gap: 20px;
+}
+
+.mini_tour {
+    position: absolute;
+    width: 96px;
+    right: 40px;
+    top: 20px;
+    z-index: 0;
+}
+
+.main_3_cards {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: 40px;
+}
+
+.main_3 {
+    padding: 20px;
+}
+
+.main_3_cards h1 {
+    font-weight: 400;
+    font-size: 40px;
+    color: #1E1E1E;
+    position: relative;
+    z-index: 2;
+    width: 60%;
+}
+
+.main_3_cards h1 span {
+    font-weight: 700;
+}
+
+.process_thooth h2 {
+    font-weight: 400;
+    font-size: 25px;
+    max-width: 518px;
+    width: 100%;
+    color: #1E1E1E;
+}
+
+.process_thooth h2 span {
+    background-color: #FF8A30;
+    color: white;
+    padding: 0 5px;
+}
+
+.process_theeth {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.about_doctor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.blue_circle {
+    width: 20px;
+    height: 20px;
+    background-color: #4060AA;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.about_doctor p {
+    max-width: 230px;
+    width: 100%;
+    font-weight: 700;
+    color: #5C5C5C;
+}
+
+.process_thooth_2 h3 {
+    color: #1E1E1E;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.process_theeth img {
+    margin-top: -150px;
+    margin-left: -50px;
+    width: 507px;
+    height: 395px;
+}
+
+.for_profiles_img {
+    display: flex;
+}
+
+.main_4_cards {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color: #EAF1FF;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.main_4_cards h1 {
+    font-size: 30px;
+    max-width: 762px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.main_4_cards h1 span {
+    color: white;
+    background-color: #FF8A30;
+    padding: 0 5px;
+}
+
+.information_work_card {
+    border: 1px solid #D2D7E7;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    padding: 25px;
+    position: relative;
+    background-color: #EAF1FF;
+}
+
+.information_work_cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin-top: 80px;
+    position: relative;
+    z-index: 2;
+}
+
+.information_work_card h3 {
+    font-size: 22px;
+    max-width: 298px;
+    width: 100%;
+    width: 90%;
+}
+
+.information_work_card p {
+    font-size: 16px;
+    color: #4A4A4A;
+    margin-top: 20px;
+    max-width: 235px;
+    width: 100%;
+}
+
+.information_work_card h3 span {
+    color: #6F89C4;
+}
+
+.circle_work {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #7F98CF;
+    position: absolute;
+    top: 0;
+    right: -5px;
+}
+
+.main_4_cards img {
+    width: 289px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main_5_cards{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px !important;
+}
+
+.main_5_img{
+    width: 50%;
+    height: 386px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.main_5_img img{
+    width: 100%;
+}
+
+.main_5_cards{
+    display: flex;
+    gap: 20px;
+}
+
+.main_5_card{
+    width: 50%;
+    min-height: 386px;
+    background-color: #607CBC;
+    border-radius: 20px;
+}
+
+.main_5_card h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+
+.main_5_info{
+    padding: 40px;
+    padding-bottom: 30px;
+}
+
+.main_5_card p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+}
+
+.main_5_card p span{
+    color: #E1B666;
+}
+
+.main_5_card button{
+    width: 100%;
+    height: 72px;
+    background-color: #FF8A30;
+    border-radius: 40px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.for_phone_info{
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    padding-top: 30px;
+}
+
+.for_phone_info h3{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    width: 195px;
+}
+
+.for_phone_info p{
+    font-size: 14px;
+    color: white;
+    margin-top: 0;
+}
+
+.for_phone_info h3 i{
+    color: #81C400;
+}
+
+.main_6_cards{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.main_6_cards h1{
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 900px;
+    width: 100%;
+}
+
+.for_implant_cards{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.for_implant_card_1 img{
+    width: 85px;
+}
+
+.for_implant_card_1 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 30px;
+    padding: 20px;
+}
+
+.for_implant_card_2{
+    width: 50%;
+    height: auto;
+    background-color: #7F98CF;
+    border-radius: 30px;
+}
+
+.for_implant_card_2 h3{
+    color: white;
+}
+
+.for_implant_card_2 i{
+    color: #FF8B30;
+    font-size: 25px;
+}
+
+.for_implant_card_2{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+.for_flex_i{
+    display: flex;
+    gap: 20px;
+    align-items: start;
+}
+
+.osmotr_theeth_card_1{
+    width: 100%;
+    max-width: 571px;
+    padding: 20px;
+    background-color: #D2D7E7;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.osmotr_theeth_card{
+    min-height: 154px;
+    position: relative;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.osmotr_theeth_card img{
+    position: absolute;
+    right: -1px;
+    bottom: 0px;
+}
+
+.osmotr_theeth_cards{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.osmotr_theeth_card h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E1E1E;
+    position: relative;
+    z-index: 2;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.osmotr_theeth_card p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #7F7E7E;
+    position: relative;
+    z-index: 2;
+    max-width: 320px;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.osmotr_circle{
+    width: 55px;
+    height: 48px;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.osmotr_theeth_card_copy{
+    min-height: 195px;
+}
+
+.osmotr_circle_copy{
+    height: 63px;
+}
+
+.osmotr_theeth_images{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.osmotr_theeth_images img{
+    border-radius: 30px;
+    width: 238px;
+    height: 100%;
+}
+
+.aval_circle{
+    max-width: 234px;
+    width: 100%;
+    border-radius: 72px;
+    background-color: #F09955;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+.aval_circle h2{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.square{
+    width: 16px;
+    height: 16px;
+    background-color: #F09955;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -8px;
+    left: 40px;
+}
+
+.main_6{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.main_6 h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.main_6 p{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.map_card{
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: start;
+    margin-top: 20px;
+    min-height: 106px;
+}
+
+.map_cards{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.map_card_1{
+    max-width: 392px;
+    width: 100%;
+}
+
+.map_cards p{
+    margin-top: 10px;
+    color: #4A4A4A;
+    font-size: 16px;
+}
+
+.map_cards h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.map_card_2{
+    max-width: 288px;
+    width: 100%;
+}
+
+.map_card_3 i{
+    color: #B9D53E;
+    padding-right: 0;
+    font-size: 22px !important;
+}
+
+.map_card_3{
+    align-items: center;
+    width: 260px;
+}
+
+.media_map_card{
+    display: flex;
+    gap: 20px;
+}
 
 
 
-@media(max-width: 967px){
 
-    .navbar ul{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 840px) {
+    .process_theeth {
+        flex-direction: column;
+    }
+
+    .for_profiles_img {
+        align-items: end;
+    }
+
+    .information_work_cards {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media(max-width: 1065px) {
+    .colleagues_cards {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .osmotr_theeth_cards{
+        flex-direction: column-reverse;
+    }
+
+    .osmotr_theeth_images{
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .osmotr_theeth_card_1{
+        max-width: 100%;
+    }
+
+    .osmotr_theeth_images img {
+        width: 100%;
+    }
+
+    .information_work_card h3 {
+        font-size: 19px;
+    }
+
+    .information_work_card p {
+        font-size: 15px;
+    }
+
+    .process_theeth img {
+        width: 430px;
+        height: 320px;
+        margin-top: -84px;
+    }
+
+    .main_3_cards h1 {
+        width: 100%;
+    }
+
+    .process_theeth {
+        gap: 30px;
+    }
+
+    .process_thooth h2 {
+        font-size: 22px;
+    }
+
+    .about_doctor p {
+        font-size: 15px;
+    }
+
+    .colleagues_card {
+        margin: auto;
+        width: 100%;
+        max-width: 800px;
+    }
+
+    .colleague_times {
+        max-width: 400px;
+    }
+}
+
+@media(max-width: 800px){
+    .osmotr_theeth_images{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media(max-width: 700px) {
+    .first_card_team {
+        height: 350px;
+    }
+
+    .main_4_cards img{
+        display: none;
+    }
+
+    .information_work_cards{
+        margin-top: 50px;
+    }
+
+    .for_implant_cards{
+        flex-direction: column;
+    }
+
+    .for_implant_card_1{
+        width: 100%;
+    }
+
+    .for_implant_card_2{
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px) {
+    .colleague_time h2 {
+        font-size: 16px;
+    }
+
+    .media_map_card{
+        display: block;
+    }
+
+    .map_card_3{
+        width: 100% !important;
+    }
+
+    .main_4_cards{
+        margin-top: 20px;
+    }
+
+    .main_4_cards h1{
+        font-size: 25px;
+    }
+
+    .information_work_cards {
+        grid-template-columns: auto;
+    }
+
+    .for_profiles_img {
+        flex-direction: column-reverse;
+    }
+
+    .process_theeth img {
+        margin-top: auto;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .main_3_cards h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .process_thooth h2 {
+        font-size: 19px;
+    }
+
+    .about_doctor p {
+        max-width: 100%;
+    }
+
+    .for_profiles_img {
+        align-items: center;
+    }
+
+    .colleague_time h2 span {
+        font-size: 32px;
+    }
+
+    .colleague_time p {
+        font-size: 16px;
+    }
+
+    .all_colleague h1 {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 967px) {
+
+    .navbar ul {
         font-size: 14px;
     }
 
-    .navbar button{
+    .navbar button {
         max-width: 220px;
         font-size: 14px;
         height: 50px;
     }
 
-    .navbar .bx-menu{
+    .navbar .bx-menu {
         display: flex;
     }
 
-    .media_nav{
+    .media_nav {
         display: block;
     }
 
-    .logo{
+    .logo {
         width: 150px;
     }
 
-    .navbar button i{
+    .navbar button i {
         margin-right: 18px;
+    }
+
+    .doctors_img {
+        width: 100%;
+    }
+
+    .count_card {
+        width: 100%;
+    }
+
+    .for_discount {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .count_cards {
+        gap: 2vw !important;
+    }
+
+    .information_card_2 button {
+        font-size: 18px;
+    }
+
+    .count_card h3 {
+        font-size: 15px;
+    }
+
+    .count_card h2 {
+        font-size: 16px;
+    }
+
+    .count_card h4 {
+        font-size: 16px;
     }
 }
 
-@media(max-width: 787px){
-    .media_ul{
+@media(max-width: 700px){
+    .main_5_cards{
+        flex-direction: column;
+    }
+
+    .main_5_img{
+        width: 100%;
+    }
+    
+    .main_5_card{
+        width: 100%;
+    }
+
+    .main_6 h1{
+        font-size: 42px;
+    }
+
+    .main_6 p{
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 787px) {
+    .media_ul {
         display: block;
     }
-    .navbar ul{
+
+    .navbar ul {
         display: none;
     }
 
-    .media_ul{
+    .media_ul {
         font-size: 14px;
     }
 
-    .navbar button{
+    .navbar button {
         max-width: 180px;
     }
 }
 
-@media(max-width: 1400px){
-    .count_cards{
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
-    }
+@media(max-width: 1400px) {
 
-    .count_information{
-        display: block;
-    }
-
-    .information_card_2{
+    .information_card_2 {
         width: auto;
     }
 }
 
-@media(max-width: 1200px){
+@media(max-width: 1200px) {
+    .for_center_circle {
+        display: none;
+    }
+
+    .tooth_cards {
+        display: block;
+    }
+
+    .tooth_card_2 .tooth_card {
+        margin-left: 0;
+        margin-top: 10px !important;
+        width: 385px;
+        height: 105px;
+        flex-direction: row;
+    }
+
+    .tooth_card_2 .tooth_card p {
+        margin-left: 10px;
+    }
+
+    .information_card h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .doctors_img {
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .count_information {
+        display: block;
+    }
+
+    .count_cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .doctors_img {
+        max-width: 420px;
+        width: 100%;
+    }
+
+    .tooth_card_1 .tooth_card {
+        width: 100%;
+    }
+
+    .count_card {
+        width: 198px;
+    }
+
+    .for_discount {
+        width: 47px;
+        height: 47px;
+    }
+}
+
+@media(max-width: 900px) {
+    .buttons_cards {
+        display: block;
+    }
+
+    .map_cards{
+        display: block;
+    }
+
+    .media_map_width{
+        width: 100%;
+    }
+
+    .map_card_3{
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .map_card{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .map_card_3{
+        width: 50%;
+    }
     
+    .main_5_card p{
+        margin-top: 20px;
+    }
+
+    .main_5_info{
+        padding: 30px;
+    }
+
+    .main_5_card h2{
+        font-size: 23px;
+    }
+
+    .main_5_card p{
+        font-size: 18px;
+    }
+
+    .main_5_card button{
+        font-size: 15px;
+    }
+
+    .for_phone_info{
+        padding: 30px;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .for_phone_info h3{
+        font-size: 16px;
+    }
+
+    .for_phone_info p{
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .buttons_cards p {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+
+    .information_cards {
+        display: block;
+    }
+
+    .tooth_card_2 .tooth_card {
+        margin: auto;
+    }
+
+    .tooth_card_1 {
+        flex-direction: row;
+    }
+
+    .information_card {
+        width: 100%;
+    }
+
+    .information_card h1 {
+        max-width: 100%;
+    }
+
+    .information_card_2 {
+        margin-top: 30px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .count_information {
+        display: block;
+    }
+
+    .count_cards {
+        display: flex;
+    }
+
+    .for_discount {
+        width: 9.5vw;
+        height: 9.5vw;
+    }
+}
+
+@media(max-width: 550px) {
+    .colleagues_card {
+        flex-direction: column-reverse;
+    }
+
+    .media_ul {
+        font-size: 16px;
+    }
+
+    .osmotr_theeth_images{
+        grid-template-columns: auto auto;
+    }
+
+    .osmotr_theeth_images {
+        gap: 15px;
+    }
+
+    .osmotr_theeth_card h3{
+        width: 85%;
+        margin-left: 20px;
+    }
+
+    .osmotr_theeth_card p{
+        width: 70%;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .main_6_cards h1{
+        font-size: 32px;
+    }
+
+    .for_implant_card_1 h3{
+        font-size: 16px;
+    }
+
+    .for_implant_card_2 h3{
+        font-size: 16px;
+    }
+
+    .for_implant_card_2{
+        padding: 30px;
+    }
+
+    .for_implant_card_1{
+        gap: 20px;
+    }
+
+    .process_theeth img {
+        width: 100%;
+        height: auto;
+    }
+
+    .media_buttons {
+        flex-direction: column;
+    }
+
+    .info_phone {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .media_buttons button {
+        max-width: 100% !important;
+        font-size: 16px !important;
+    }
+
+    .info_phone h3 {
+        font-size: 16px;
+    }
+
+    .info_phone p {
+        font-size: 16px;
+    }
+
+    .information_connect h2 {
+        font-size: 22px;
+    }
+
+    .all_colleague h1 {
+        font-size: 35px;
+    }
+
+    .colleague_times {
+        max-width: 100%;
+    }
+
+    .second_card_team {
+        height: 120vw;
+    }
+
+    .count_card {
+        height: auto;
+    }
+
+    .for_discount {
+        border-radius: 12px;
+    }
+
+    .count_card img {
+        width: 60px !important;
+    }
+
+    .count_card h3 {
+        font-size: 14px;
+    }
+
+    .information_card_2 {
+        padding: 15px;
+    }
+
+    .count_card_img {
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .for_discount {
+        font-size: 13px;
+    }
+
+    .tooth_card_1 {
+        flex-direction: column;
+    }
+
+    .tooth_card_2 .tooth_card {
+        width: 100%;
+    }
+
+    .tooth_card_1 .tooth_card {
+        width: 100%;
+    }
+
+    .information_card h1 {
+        font-size: 35px;
+    }
 }
