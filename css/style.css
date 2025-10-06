@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Mulish", sans-serif;
 }
 
 .navbar {
@@ -521,7 +520,7 @@
 .info_phone h3 {
     color: white;
     cursor: pointer;
-    width: 200px;
+    width: 215px;
 }
 
 .info_phone p {
@@ -784,7 +783,7 @@
     font-size: 18px;
     color: white;
     cursor: pointer;
-    width: 195px;
+    width: 205px;
 }
 
 .for_phone_info p{
@@ -973,6 +972,7 @@
     max-width: 1200px;
     width: 100%;
     margin: auto;
+    position: relative;
 }
 
 .main_6 h1{
@@ -1002,6 +1002,8 @@
     margin-top: 40px;
     display: flex;
     gap: 20px;
+    position: relative;
+    z-index: 2;
 }
 
 .map_card_1{
@@ -1033,12 +1035,65 @@
 
 .map_card_3{
     align-items: center;
-    width: 260px;
+    width: 330px;
 }
 
 .media_map_card{
     display: flex;
     gap: 20px;
+}
+
+.main_6 iframe{
+    width: 100%;
+    height: 385px;
+    margin-top: 40px;
+}
+
+.main_6 .img_tour{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.footer_main{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    min-height: 210px;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.footer_info p{
+    color: #323D4E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 307px;
+    width: 100%;
+}
+
+.footer_info h3{
+    color: #323D4E;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.lisenziya{
+    font-size: 16px;
+    color: #323D4E;
+    line-height: 24px;
+}
+
+.lisenziya span{
+    border-bottom: 1px solid #323D4E;
+    padding-bottom: 2px;
 }
 
 
@@ -1084,6 +1139,10 @@
     .colleagues_cards {
         flex-direction: column-reverse;
         justify-content: center;
+    }
+
+    .map_card_3{
+        width: 100%;
     }
 
     .osmotr_theeth_cards{
@@ -1146,6 +1205,12 @@
 @media(max-width: 800px){
     .osmotr_theeth_images{
         grid-template-columns: auto auto;
+    }
+
+    .footer_main{
+        flex-direction: column;
+        align-items: start;
+        gap: 40px;
     }
 }
 
@@ -1544,16 +1609,18 @@
     .osmotr_theeth_card h3{
         width: 85%;
         margin-left: 20px;
+        font-size: 22px;
     }
 
     .osmotr_theeth_card p{
         width: 70%;
         margin-left: 20px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .main_6_cards h1{
         font-size: 32px;
+        line-height: 35px;
     }
 
     .for_implant_card_1 h3{
