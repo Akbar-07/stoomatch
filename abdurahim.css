@@ -6,8 +6,8 @@
 }
 
 .prize-box {
+    max-width: 1400px;
     width: 100%;
-    max-width: 1800px;
     min-height: 300px;
     background: #4060AA;
     margin: auto;
@@ -20,8 +20,8 @@
     position: relative;
 }
 
-.mains{
-    padding: 20px;
+.mains {
+    /* padding: 20px; */
 }
 
 .inside-big {
@@ -160,7 +160,7 @@
     /* background: #000; */
 }
 
-.icon-inside p{
+.icon-inside p {
     padding-bottom: 0;
     height: auto;
     color: white;
@@ -172,7 +172,7 @@
         font-size: 35px;
     }
 
-    .box-img img{
+    .box-img img {
         width: 350px;
     }
 }
@@ -198,7 +198,7 @@
         font-size: 16px;
     }
 
-    .tel-icon{
+    .tel-icon {
         width: 220px;
     }
 }
@@ -248,16 +248,16 @@
         padding-top: 150px;
     }
 
-    .prize-box{
+    .prize-box {
         padding: 20px;
     }
 
     .box-img img {
-    padding-bottom: 40px;
-    position: absolute;
-    right: -15px;
-    top: -30px;
-}
+        padding-bottom: 40px;
+        position: absolute;
+        right: -15px;
+        top: -30px;
+    }
 }
 
 @media(max-width: 467px) {
@@ -270,11 +270,11 @@
         /* left: 5%; */
     }
 
-    .inside-big h1{
+    .inside-big h1 {
         line-height: 27px;
     }
 
-    .inside-big p{
+    .inside-big p {
         line-height: 24px;
     }
 
@@ -361,31 +361,32 @@
 }
 
 .head-main h1 {
+    max-width: 833px;
     width: 100%;
     font-size: 40px;
-    max-width: 833px;
 }
 
 .head-main img {
     width: 17%;
 }
 
-.cards-nurse {
-    /* max-width: 1200px; */
-    /* width: 100%; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    gap: 10px;
-}
-
 .styee {
+    max-width: 1457px;
+    width: 100%;
     margin-top: 30px;
     min-height: 200px;
     border: 1px solid #4060AA;
     background: #EAF1FF;
     border-radius: 30px;
+}
+
+
+.cards-nurse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
 }
 
 .nurse-card-inside-box {
@@ -404,6 +405,7 @@
 .inside-bosx-h1 p {
     font-size: 23px;
     font-weight: 700;
+    color: #7F7F7F;
 }
 
 .inside-bosx-h1 h1 {
@@ -425,7 +427,7 @@
 }
 
 .nurse-card-inside-box p {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 17px;
     font-weight: 700;
 }
@@ -433,6 +435,7 @@
 .kandinant {
     width: 100%;
     margin-bottom: 10px;
+    /* font-size: 15px; */
 }
 
 .inside-btn {
@@ -451,6 +454,11 @@
 .card-inside-btn-1:nth-child(1) {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.message-div span,
+.card-inside-btn-1 span {
+    font-size: 12px;
 }
 
 .card-inside-btn-1 {
@@ -493,7 +501,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: -25px;
+    margin-top: -10px;
 }
 
 .card-inside-but button {
@@ -508,7 +516,8 @@
 .card-inside-but p {
     width: 100%;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
+    margin-top: 10px;
 }
 
 @media(max-width: 1496px) {
@@ -533,7 +542,7 @@
     }
 
     .kandinant {
-        font-size: 10px !important;
+        font-size: 10px;
     }
 
     .nurse-card-img {
@@ -596,7 +605,7 @@
 
 @media(max-width: 887px) {
     .kandinant {
-        /* font-size: 10px !important; */
+        font-size: 12px;
     }
 
     .inside-bosx-h1 {
@@ -637,7 +646,7 @@
     }
 
     .card-inside-btn-1 {
-        width: 170px;
+        width: 100%;
         border-radius: 30px;
         /* min-height: 20px; */
         /* background: #000; */
@@ -664,12 +673,16 @@
     .head-main h1 {
         font-size: 15px;
     }
+    .mapp {
+        height: 200px !important;
+        /* background: #000; */
+    }
 }
 
 @media(max-width:410px) {
 
     .card-inside-btn-1 {
-        width: 150px;
+        width: 100%;
     }
 
     .card-inside-btn {
@@ -679,23 +692,34 @@
 
 @media(max-width:364px) {
 
-    .card-inside-btn-1 {
+   /*  .card-inside-btn-1 {
         width: 100%;
         text-align: center;
-        justify-content: center;
-        align-items: center;
-        min-height: auto;
+        /* min-height: auto;
         height: 60px;
-        padding-top: 10px;
+        /* padding-top: 10px;
     }
-
+/* 
     .card-inside-btn-1 p {
+        height: auto;
         margin-top: -10px;
     }
 
     .head-main h1 {
-        font-size: 12px;
+        height: auto;
+        font-size: 27px;
     }
+
+    .patsin {
+        margin: 0;
+    }
+
+    .card-inside-btn-1 p {
+        margin: 0;
+    } */
+     .under-center {
+        margin-top: 0 !important;
+     }
 }
 
 .make-order-card {
@@ -703,6 +727,10 @@
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .order-head {
@@ -773,16 +801,19 @@
     .main-cancel {
         width: 100%;
         font-size: 16px;
+        padding: 10px;
     }
 }
 
 .order-inside-card {
-    width: 60%;
+    max-width: 1087px;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
+    gap: 10px;
 }
 
 .inside-img-card {
@@ -948,7 +979,7 @@
 }
 
 .swiper-js {
-    max-width: 1000px;
+    max-width: 1087px;
     width: 100%;
     height: 400px;
     margin: auto;
@@ -1025,10 +1056,18 @@
     padding: 10px;
 }
 
+.btn-div3 {
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
 .btnn-1 {
     width: 135px;
     height: 52px;
-    background:  #6EA600;
+    background: #6EA600;
     border: none;
     border-radius: 30px;
     color: white;
@@ -1051,13 +1090,15 @@
     text-align: left;
     background: #F3F3F3;
     margin-top: 20px;
+    padding: 10px;
 }
 
-.message-div h3{
+.message-div h3 {
     font-size: 15px;
     padding-bottom: 10px;
 }
-.message-div p{
+
+.message-div p {
     font-size: 12px;
 }
 
@@ -1067,34 +1108,42 @@
         justify-content: start;
         margin-left: 20px;
     }
+
     .card-swiper-h1 {
         width: 100%;
     }
 
-    .prize-box{
+    .prize-box {
         border-radius: 30px;
     }
+
+    .card-swiper {
+        width: 100%;
+    }
 }
+
 @media(max-width:776px) {
     .div1-div1 h1 {
         font-size: 20px;
     }
 }
+
 @media(max-width: 642px) {
     .btnn-2 {
         width: 30px;
         height: 30px;
     }
+
     .btnn-1 {
         width: 100px;
         height: 30px;
     }
 
-    .btn-inside-2{
+    .btn-inside-2 {
         font-size: 14px;
     }
 
-    .btn-inside-1{
+    .btn-inside-1 {
         font-size: 14px;
     }
 
@@ -1102,40 +1151,50 @@
         display: block;
     }
 
-    .btn-inside-1{
+    .btn-inside-1 {
         border: solid 2px #FF8A30;
     }
 }
+
 @media(max-width:529px) {
     .swiper-js {
         flex-wrap: wrap-reverse;
         justify-content: start;
         height: auto;
     }
+
     .swiper-div3 {
         max-width: 100%;
         padding-bottom: 20px;
     }
 
-    .btn-inside-1{
+    .btn-inside-1 {
         height: 60px;
     }
 
-    .btn-inside-2{
+    .btn-inside-2 {
         height: 60px;
     }
 }
+
 @media(max-width: 375px) {
     .div1-div1 h1 {
         font-size: 17px;
     }
+
     .radio-div p {
         font-size: 12px;
     }
+
     .swiper-div1 {
         padding-bottom: 20px;
     }
+
     .card-swiper-h1 {
         font-size: 20px;
+    }
+
+    .card-swiper {
+        width: 90%;
     }
 }
