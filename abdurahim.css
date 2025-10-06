@@ -492,7 +492,7 @@
 .under-center {
     text-decoration: underline;
     width: 70%;
-    text-align: center;
+    text-align: center;margin-top: 0 !important;
 }
 
 .card-inside-but {
@@ -671,7 +671,7 @@
     }
 
     .head-main h1 {
-        font-size: 15px;
+        font-size: 27px;
     }
     .mapp {
         height: 200px !important;
@@ -1118,7 +1118,7 @@
     }
 
     .card-swiper {
-        width: 100%;
+        width: 90%;
     }
 }
 
