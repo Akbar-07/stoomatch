@@ -14,6 +14,12 @@
     padding: 20px;
 }
 
+.nav_line{
+    width: 100%;
+    height: 2px;
+    background-color: #EAF1FF;
+}
+
 .navbar ul li {
     list-style: none;
 }
@@ -479,6 +485,7 @@
     position: relative;
     z-index: 2;
     cursor: pointer;
+    line-height: 20px;
 }
 
 .buttons_cards {
@@ -559,7 +566,7 @@
     color: #1E1E1E;
     position: relative;
     z-index: 2;
-    width: 60%;
+    width: 75%;
 }
 
 .main_3_cards h1 span {
@@ -569,9 +576,13 @@
 .process_thooth h2 {
     font-weight: 400;
     font-size: 25px;
-    max-width: 518px;
+    max-width: 544px;
     width: 100%;
     color: #1E1E1E;
+}
+
+.process_thooth_2{
+    width: 250px;
 }
 
 .process_thooth h2 span {
@@ -589,7 +600,7 @@
 .about_doctor {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .blue_circle {
@@ -611,14 +622,15 @@
     color: #1E1E1E;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
 }
 
 .process_theeth img {
     margin-top: -150px;
-    margin-left: -50px;
-    width: 507px;
-    height: 395px;
+    margin-left: -100px;
+    width: 477px;
+    height: 365px;
 }
 
 .for_profiles_img {
@@ -631,9 +643,9 @@
     margin: auto;
     background-color: #EAF1FF;
     border-radius: 20px;
-    padding: 20px;
+    padding: 40px;
     position: relative;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .main_4_cards h1 {
@@ -1169,12 +1181,6 @@
         font-size: 15px;
     }
 
-    .process_theeth img {
-        width: 430px;
-        height: 320px;
-        margin-top: -84px;
-    }
-
     .main_3_cards h1 {
         width: 100%;
     }
@@ -1205,6 +1211,10 @@
 @media(max-width: 800px){
     .osmotr_theeth_images{
         grid-template-columns: auto auto;
+    }
+    
+    .main_4_cards{
+        padding: 30px 20px;
     }
 
     .footer_main{
@@ -1243,6 +1253,14 @@
 @media(max-width: 600px) {
     .colleague_time h2 {
         font-size: 16px;
+    }
+
+    .process_theeth img{
+        margin-top: -25px !important;
+    }
+
+    .process_thooth_2 h3{
+        margin-top: 20px;
     }
 
     .media_map_card{
@@ -1417,6 +1435,12 @@
 @media(max-width: 1200px) {
     .for_center_circle {
         display: none;
+    }
+
+    .process_theeth img {
+        width: 430px;
+        height: 320px;
+        margin-top: -84px;
     }
 
     .tooth_cards {
