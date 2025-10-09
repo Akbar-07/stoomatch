@@ -235,9 +235,6 @@
 }
 
 @media(max-width:780px) {
-    .prize-box {
-        margin-top: 200px;
-    }
 
     .inside-big {
         justify-content: start;
@@ -335,6 +332,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     padding-top: 30px;
+    padding: 20px;
     height: auto;
     position: relative;
 }
@@ -349,8 +347,9 @@
 }
 
 .handle-nurse {
-    width: 75%;
+    max-width: 1200px;
     margin: auto;
+    width: 100%;
 }
 
 .head-main {
@@ -417,6 +416,8 @@
 .card-inside-btn {
     display: flex;
     align-items: center;
+    max-width: 761px;
+    width: 100%;
 }
 
 .nurse-card-img img {
@@ -444,6 +445,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+    gap: 30px;
 }
 
 .card-inside-btn-1:nth-child(4) {
@@ -458,7 +460,7 @@
 
 .message-div span,
 .card-inside-btn-1 span {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .card-inside-btn-1 {
@@ -468,6 +470,11 @@
     background: #4060AA;
     text-align: center;
     color: white;
+    height: 90px;
+    display: flex;
+    padding: 0 10px;
+    flex-direction: column;
+    justify-content: center;
     /* padding-top: 0px; */
 }
 
@@ -481,7 +488,12 @@
 
 .card-inside-btn-1 p {
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-inside-btn-1 h4{
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -491,12 +503,13 @@
 
 .under-center {
     text-decoration: underline;
-    width: 70%;
-    text-align: center;margin-top: 0 !important;
+    text-align: center;
+    margin-top: 0 !important;
 }
 
 .card-inside-but {
-    width: 250px;
+    max-width: 333px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -507,27 +520,36 @@
 .card-inside-but button {
     height: 50px;
     width: 100%;
+    padding: 0 10px;
     border: none;
     background: #FF8A30;
     border-radius: 30px;
     color: white;
+    height: 70px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .card-inside-but p {
     width: 100%;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 10px;
 }
+
+.inside-bosx-h1 p{
+    font-size: 18px;
+}
+
+
+
+
 
 @media(max-width: 1496px) {
     .card-inside-btn {
         width: 90%;
     }
 
-    .card-inside-btn-1 {
-        width: 90%;
-    }
 }
 
 @media(max-width: 1201px) {
@@ -562,6 +584,10 @@
 
 #inside-btn-disable {
     display: none;
+}
+
+.card-inside-but button{
+    cursor: pointer;
 }
 
 @media(max-width:1111px) {
@@ -627,9 +653,6 @@
 }
 
 @media(max-width:614px) {
-    .handle-nurse {
-        width: 90%;
-    }
 
     .head-main h1 {
         font-size: 20px;
@@ -647,7 +670,7 @@
 
     .card-inside-btn-1 {
         width: 100%;
-        border-radius: 30px;
+        border-radius: 20px !important;
         /* min-height: 20px; */
         /* background: #000; */
         /* font-size: 1px; */
@@ -655,7 +678,7 @@
 
     .card-inside-btn {
         flex-wrap: wrap;
-        gap: 2px;
+        gap: 8px;
     }
 
     #center-item {
