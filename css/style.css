@@ -825,7 +825,10 @@
     display: flex;
     border: 1px solid black;
     border-radius: 30px;
-    margin-top: 30px;
+    margin-top: 30px !important;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
 }
 
 .for_implant_card_1 img{
@@ -870,17 +873,29 @@
 
 .osmotr_theeth_card_1{
     width: 100%;
-    max-width: 571px;
+    /* max-width: 571px; */
     padding: 20px;
     background-color: #D2D7E7;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.naqsh{
+    position: absolute;
+    top: -44px;
+    left: -107px;
+    transform: rotate(90deg);
+    height: 500px;
 }
 
 .osmotr_theeth_card{
     min-height: 154px;
+    max-width: 380px;
+    width: 100%;
     position: relative;
     border-radius: 30px;
     padding-bottom: 20px;
@@ -891,6 +906,7 @@
     position: absolute;
     right: -1px;
     bottom: 0px;
+    border-bottom-right-radius: 20px;
 }
 
 .osmotr_theeth_cards{
@@ -901,24 +917,24 @@
 }
 
 .osmotr_theeth_card h3{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     color: #1E1E1E;
     position: relative;
     z-index: 2;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 20px;
 }
 
 .osmotr_theeth_card p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #7F7E7E;
     position: relative;
     z-index: 2;
     max-width: 320px;
     width: 100%;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 10px;
 }
 
@@ -934,6 +950,8 @@
 
 .osmotr_theeth_card_copy{
     min-height: 195px;
+    margin: auto;
+    margin-right: 0;
 }
 
 .osmotr_circle_copy{
